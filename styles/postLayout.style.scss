@@ -1,0 +1,20 @@
+.postLayout {
+  .routeBtnContainer {
+    margin: 0 10%;
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+    margin-right: 22%;
+  }
+  .loadMoreBtn {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    margin-right: 8%;
+  }
+  .noData {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+}

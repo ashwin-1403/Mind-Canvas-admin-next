@@ -1,0 +1,27 @@
+.post {
+  margin: 0 10%;
+  .posterImg {
+    max-height: 300px;
+    object-fit: cover;
+  }
+  .poster {
+    position: relative;
+
+    .editBtn {
+      background: white;
+      position: absolute;
+      display: flex;
+      justify-content: space-between;
+      margin: 10px;
+      right: 5px;
+      border-radius: 0.2rem;
+      svg {
+        margin: 5px;
+        border: 1px solid black;
+        border-radius: 0.5rem;
+        padding: 2px;
+        cursor: pointer;
+      }
+    }
+  }
+}
